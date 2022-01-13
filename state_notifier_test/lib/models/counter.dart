@@ -11,6 +11,6 @@ abstract class CounterState with _$CounterState {
 }
 
 class CounterStateNotifier extends StateNotifier<CounterState> {
-  CounterStateNotifier() : super(const CounterState()) {}
+  CounterStateNotifier() : super(const CounterState());
   increment() => state = state.copyWith(count: state.count + 1);
 }
