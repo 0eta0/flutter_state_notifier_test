@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:riverpod_flutter_hooks_test/models/counter.dart';
-import 'package:state_notifier/state_notifier.dart';
 
 void main() {
   runApp(const MyApp());
